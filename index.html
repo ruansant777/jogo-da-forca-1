@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jogo da Forca</h1>
+    <p id="palavra"></p>
+    <p>Tentativas restantes: <span id="tentativas"></span></p>
+    <p>Letras erradas: <span id="letrasErradas"></span></p>
+    <input type="text" id="inputLetra" maxlength="1" placeholder="Digite uma letra">
+    <button onclick="verificarLetra()">Tentar</button>
+    <p id="mensagem"></p>
+    <script src="script.js"></script>
+</body>
+</html>
 
