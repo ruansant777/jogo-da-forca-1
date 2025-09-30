@@ -1,1 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
 
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#palavra {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#mensagem {
+    font-size: 18px;
+    font-weight: bold;
+}
